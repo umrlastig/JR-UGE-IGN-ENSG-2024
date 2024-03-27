@@ -1,0 +1,8 @@
+
+Pas de slides, video:
+ 590M   JR_LionelHenry.mp4
+ compression via ffmpeg: 
+ffmpeg -i JR_LionelHenry.mp4 -vcodec libx265 -crf 28 JR_LionelHenry_LR.mp4
+  encoded 19955 frames in 888.73s (22.45 fps), 251.66 kb/s, Avg QP:34.30
+  21M  JR_LionelHenry_LR.mp4
+
